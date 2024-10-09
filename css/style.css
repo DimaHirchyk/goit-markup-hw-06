@@ -1204,5 +1204,22 @@ gap: 0;
   background-color: #404bbf;
 }
 
+@media screen and (min-width: 768px) {
 
+  .overley {
+  padding: 24px;
+  padding-top: 72px;
+  max-width: 408px;
+  min-height: 584px;
+}
+
+.review-form-input {
+width: 360px;
+}
+
+.textarea-checkbox {
+  width: 360px;
+}
+  
+}
             /* <!-- MODAL OVERLEY --> */
