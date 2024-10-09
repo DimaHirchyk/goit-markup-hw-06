@@ -1158,7 +1158,12 @@ gap: 0;
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
 
+.review-form-checkbox:not(:checked):focus + .review-form-checkbox-label > .custom-checkbox {
+  outline: none;
+  box-shadow: none; 
+  border-color: rgba(46, 47, 66, 0.4); 
 }
 
 .custom-checkbox {
