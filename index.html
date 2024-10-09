@@ -23,6 +23,7 @@
 
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
     <header class="page-header">
       <div class="container header-container">
@@ -56,6 +57,75 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/wedwedwed.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="mobile-btn">
+            <svg class="menu-close-icon" width="8" height="8">
+              <use href="./images/wedwedwed.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav class="nav-mobile-menu">
+            <ul class="mobile-menu-list">
+              <li><a class="mobile-menu-item curent" href="">Studio</a></li>
+              <li><a class="mobile-menu-item" href="">Portfolio</a></li>
+              <li><a class="mobile-menu-item" href="">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="mobile-address">
+            <ul class="mobile-menu-address-list">
+              <li>
+                <a
+                  href="tel:+110001111111"
+                  class="mobile-menu-address-link curent"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mobile-menu-address-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mobile-social-list-icon">
+            <li class="mobile-list-icon">
+              <a href="" class="social-icon-link">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-list-icon">
+              <a href="" class="social-icon-link">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-list-icon">
+              <a href="" class="social-icon-link">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-list-icon">
+              <a href="" class="social-icon-link">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -130,7 +200,12 @@
           <h2 class="team">Our Team</h2>
           <ul class="team-item">
             <li class="team-list">
-              <img src="./images/img1.jpg" alt="foto1" width="264" />
+              <img
+                srcset="./images/img1x2.jpg"
+                src="./images/img1.jpg"
+                alt="foto1"
+                width="264"
+              />
               <div class="person-name">
                 <h3 class="team-name">Mark Guerrero</h3>
                 <p class="team-prof">Product Designer</p>
@@ -167,7 +242,12 @@
               </div>
             </li>
             <li class="team-list">
-              <img src="./images/img2.jpg" alt="foto2" width="264" />
+              <img
+                srcset="./images/img2x2.jpg"
+                src="./images/img2.jpg"
+                alt="foto2"
+                width="264"
+              />
               <div class="person-name">
                 <h3 class="team-name">Tom Ford</h3>
                 <p class="team-prof">Frontend Developer</p>
@@ -204,7 +284,12 @@
               </div>
             </li>
             <li class="team-list">
-              <img src="./images/img3.jpg" alt="foto3" width="264" />
+              <img
+                srcset="./images/img3x2.jpg"
+                src="./images/img3.jpg"
+                alt="foto3"
+                width="264"
+              />
               <div class="person-name">
                 <h3 class="team-name">Camila Garcia</h3>
                 <p class="team-prof">Marketing</p>
@@ -241,7 +326,12 @@
               </div>
             </li>
             <li class="team-list">
-              <img src="./images/img4.jpg" alt="foto4" width="264" />
+              <img
+                srcset="./images/img4x2.jpg"
+                src="./images/img4.jpg"
+                alt="foto4"
+                width="264"
+              />
               <div class="person-name">
                 <h3 class="team-name">Daniel Wilson</h3>
                 <p class="team-prof">UI Designer</p>
@@ -301,7 +391,12 @@
             </li>
             <li class="port-list-item">
               <div class="overley-list">
-                <img src="./images/phone.jpg" alt="phone" width="360" />
+                <img
+                  srcset="./images/phone-x2.jpg"
+                  src="./images/phone.jpg"
+                  alt="phone"
+                  width="360"
+                />
                 <p class="text-overley">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -315,7 +410,12 @@
             </li>
             <li class="port-list-item">
               <div class="overley-list">
-                <img src="./images/lep-top.jpg" alt="lep-top" width="360" />
+                <img
+                  srcset="./images/lep-top-x2.jpg"
+                  src="./images/lep-top.jpg"
+                  alt="lep-top"
+                  width="360"
+                />
                 <p class="text-overley">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -329,7 +429,12 @@
             </li>
             <li class="port-list-item">
               <div class="overley-list">
-                <img src="./images/car.jpg" alt="car" width="360" />
+                <img
+                  srcset="./images/car-x2.jpg"
+                  src="./images/car.jpg"
+                  alt="car"
+                  width="360"
+                />
                 <p class="text-overley">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -343,7 +448,12 @@
             </li>
             <li class="port-list-item">
               <div class="overley-list">
-                <img src="./images/phone-bg.jpg" alt="phone-bg" width="360" />
+                <img
+                  srcset="./images/phone-bg-x2.jpg"
+                  src="./images/phone-bg.jpg"
+                  alt="phone-bg"
+                  width="360"
+                />
                 <p class="text-overley">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -357,7 +467,12 @@
             </li>
             <li class="port-list-item">
               <div class="overley-list">
-                <img src="./images/girl.jpg" alt="girl" width="360" />
+                <img
+                  srcset="./images/girl-x2.jpg"
+                  src="./images/girl.jpg"
+                  alt="girl"
+                  width="360"
+                />
                 <p class="text-overley">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -379,7 +494,7 @@
     <footer class="last-bg">
       <div class="container footer-container">
         <div class="last-cont">
-          <a href="./index.html" class="logo footer-logo"
+          <a href="./index.html" class="footer-logo"
             >Web<span class="logo-part">Studio</span></a
           >
           <p class="text-footer">
@@ -527,8 +642,10 @@
                   <use href="./images/icons.svg#icon-ok"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="policy-link" href="">Privacy Policy</a>
+              <span>
+                I accept the terms and conditions of the
+                <a class="policy-link" href="">Privacy Policy</a></span
+              >
             </label>
           </div>
           <button class="review-form-btn" type="submit">Send</button>
