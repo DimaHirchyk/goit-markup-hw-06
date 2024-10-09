@@ -571,6 +571,11 @@ letter-spacing: 0.02em;
   padding: 96px 0;
 }
 
+.team-container{
+  padding: 0 28px;
+  width: 320px;
+}
+
 .team {
 font-weight: 700;
 font-size: 36px;
@@ -647,7 +652,7 @@ margin-bottom: 8px;
 
   .team-container {
      min-width: 1158px;
-  padding: 0;
+  padding: 0 15px;
 }
 
 .team-list {
@@ -1140,7 +1145,7 @@ gap: 0;
 }
 
 .review-form-checkbox-label {
-   font-weight: 400;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -1153,9 +1158,11 @@ gap: 0;
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+
 }
 
 .custom-checkbox {
+  flex-shrink: 0;
     margin-right: 8px;
   display: inline-flex;
   justify-content: center;
